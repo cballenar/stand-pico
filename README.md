@@ -1,6 +1,8 @@
 # Stand Pico
 Time to stand alert system built with Raspberry Pi Pico and seat sensor.
 
+![Photo of basic setup](https://raw.githubusercontent.com/cballenar/stand-pico/main/stand-pico.jpg)
+
 ## How it works
 Sitting time will be counted as if it were a glass of water. The more you sit, the more it fills up (1 per second). Time standing will subtract from it at a faster rate (4 per second). This will result in 1hr being cleared with 15mins of standing.
 
